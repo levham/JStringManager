@@ -1,9 +1,11 @@
 # JStringManager  ![badge](https://img.shields.io/badge/Java%20Language-brown) 
  _Metin işlemleri için yardımcı konsol uygulaması_
+
  _java jdk21 gerektirir_ 
 
-### [🢆 JStringManager.exe](https://github.com/levham/JStringManager/raw/refs/heads/main/JStringManager.exe)  
-### [🢆 JStringManager-1.0.jar](https://github.com/levham/JStringManager/raw/refs/heads/main/JStringManager-1.0.jar)  
+#### [🢆 JStringManager.exe](https://github.com/levham/JStringManager/raw/refs/heads/main/JStringManager.exe)  
+#### [🢆 JStringManager-1.0.jar](https://github.com/levham/JStringManager/raw/refs/heads/main/JStringManager-1.0.jar)  
+
 
 
 ### Çalıştırma
@@ -13,6 +15,7 @@ Java.exe -jar JStringManager-1.0.jar help
 ```
 JStringManager.exe help
 ```
+
 
 
 ### Komutlar

@@ -15,19 +15,18 @@
             <type>jar</type>
         </dependency>
 
-        <!-- Log 2 -->
-        <!-- Logback Classic 1.6.x veya daha yüksek -->
+        <!-- Log 2 --> 
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.5.27</version> <!-- Uyumlu sürüm -->
+            <version>1.5.27</version>  
         </dependency>
 
-        <!-- Logback Core 1.6.x -->
+        <!-- Logback Core  -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
-            <version>1.5.27</version> <!-- Aynı sürümü kullanın -->
+            <version>1.5.27</version> 
         </dependency>
     </dependencies>
     <properties>

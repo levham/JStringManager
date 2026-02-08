@@ -36,40 +36,40 @@ JStringManager.exe help
 
 - **length,size** Metnin uzunluğunu hesaplar.
 
-  ```JStringManager length deneme```
+  >```JStringManager length deneme```
   > ->_6_
 
 - **trim** Metnin başındaki ve sondaki boşluklarını siler.
   - JStringManager trim " deneme "
-  - ->_deneme_
+  > ->_deneme_
 
 - **trim2** Matnin başındaki, sonundaki ve parametreler arası boşlukları siler.
   - JStringManager trim2 "   a "  " b "
-  - ->_ab_
+  > ->_ab_
 
 - **trimall** Metnin tüm boşluklarını siler.
   - JStringManager trimall "   a  b"
-  - ->_ab_
+  > ->_ab_
 
 - **concat** Parametreli veriyi birleştirir.
   - JStringManager concat a b c  d e
-  - ->_a b c d e_
+  > ->_a b c d e_
 
 - **contain,contains** Metnin içinde aranan bölümün bulunup bulunmadığı belirtir.
   - JStringManager contain a abccdd
-  - ->_Aranan metin bulunamadı_
+  > ->_Aranan metin bulunamadı_
   - JStringManager contain a bbccdd
-  - ->_Aranan metin bulundu_
+  > ->_Aranan metin bulundu_
 
 - **reverse** Metnin tersten yazılışını verir.
   - JStringManager reverse deneme
-  ->emened
+  > ->emened
 
 - **split** Metni belli bir karahtere göre parçalar.
   - JStringManager split . aa.bb
-  ->
-  aa
-  bb
+  > ->
+  > aa
+  > bb
 
   - JStringManager split d abcdae
   ->

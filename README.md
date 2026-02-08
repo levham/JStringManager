@@ -116,10 +116,13 @@ JStringManager.exe help
 
 ### Özel sembolleri kullanımı
 - \* komutun çıktısını kopyalar. Örneğin,
+
    ```JStringManager *lowercase DENEME```
 
 - / komutun çıktısındaki türkçe harfleri ingilizce harfe dönüştürür. Örneğin,
+
    ```JStringManager /uppercase DENEME```
 
 - \*/ veya /\*  komutun hem çıktısını kopyalar hem de tr harfleri ingye dönüştürür. Örneğin,
+
    ```JStringManager */lowercase DENEME```

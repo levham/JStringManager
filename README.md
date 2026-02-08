@@ -21,19 +21,23 @@ JStringManager.exe help
 ### Komutlar
 
 - **help , -help , h  , -h, /?** Yardım metnini görüntüler
+
   ```JStringManager -help```
 
 - **lowercase, tolowercase, lower, low** Metni küçük harfe dönüştürür.
+
   ```JStringManager lowercase DENEME```
   > ->_deneme_
 
 - **uppercase, touppercase, upper, up** Metni büyük harfe dönüştürür. 
-  - JStringManager uppercase deneme
-  - ->_DENEME_
+
+  ```JStringManager uppercase deneme```
+  > ->_DENEME_
 
 - **length,size** Metnin uzunluğunu hesaplar.
-  - JStringManager length deneme
-  - ->_6_
+
+  ```JStringManager length deneme```
+  > ->_6_
 
 - **trim** Metnin başındaki ve sondaki boşluklarını siler.
   - JStringManager trim " deneme "

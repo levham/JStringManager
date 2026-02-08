@@ -36,67 +36,82 @@ JStringManager.exe help
 
 - **length,size** Metnin uzunluğunu hesaplar.
 
-  >```JStringManager length deneme```
+  ```JStringManager length deneme```
   > ->_6_
 
 - **trim** Metnin başındaki ve sondaki boşluklarını siler.
-  - JStringManager trim " deneme "
+
+  ```JStringManager trim " deneme "```
   > ->_deneme_
 
 - **trim2** Matnin başındaki, sonundaki ve parametreler arası boşlukları siler.
-  - JStringManager trim2 "   a "  " b "
+
+  ```JStringManager trim2 "   a "  " b "```
   > ->_ab_
 
 - **trimall** Metnin tüm boşluklarını siler.
-  - JStringManager trimall "   a  b"
+
+  ```JStringManager trimall "   a  b"```
   > ->_ab_
 
-- **concat** Parametreli veriyi birleştirir.
-  - JStringManager concat a b c  d e
+- **concat** Parametreli veriyi birleştirir.```
+
+  ```JStringManager concat a b c  d e```
   > ->_a b c d e_
 
 - **contain,contains** Metnin içinde aranan bölümün bulunup bulunmadığı belirtir.
-  - JStringManager contain a abccdd
+
+  ```JStringManager contain a abccdd```
   > ->_Aranan metin bulunamadı_
-  - JStringManager contain a bbccdd
+
+  ```JStringManager contain a bbccdd```
   > ->_Aranan metin bulundu_
 
 - **reverse** Metnin tersten yazılışını verir.
-  - JStringManager reverse deneme
+
+  ```JStringManager reverse deneme```
   > ->emened
 
 - **split** Metni belli bir karahtere göre parçalar.
-  - JStringManager split . aa.bb
+
+  ```JStringManager split . aa.bb```
   > ->
   > aa
   > bb
 
-  - JStringManager split d abcdae
-  ->
-  abc
-  ae
+
+  ```JStringManager split d abcdae```
+  > ->
+  > abc
+  > ae
 
 - **substring** Metnin belli bir değere göre kırpılması.
-  - JStringManager substring  9 1234567890123
-  ->0123
-  - JStringManager program substring 4.7 1234567890123
-  ->567
+
+  ```JStringManager substring  9 1234567890123```
+  > ->0123
+
+  ```JStringManager program substring 4.7 1234567890123```
+  > ->567
 
 - **replace** Metnin içindeki bir bölümün küçük bir metin ile değiştirilmesi.
-  - JStringManager replace aa bb ccddaaa
-  ->ccddbba
+
+  ```JStringManager replace aa bb ccddaaa```
+  > ->ccddbba
 
 - **charat** Metnin içinde istenilen indis değerindeki karahteri bulunması.
-  - JStringManager charat 3 abcdefg
-  ->Arana metin:d
+
+  ```JStringManager charat 3 abcdefg```
+  > ->Arana metin:d
 
 - **indexof** Metnin içindeki bir bölümün ilk geçtiği yerin indis olarak verilmesi.
-  - JStringManager indexof f abfdefgh
-  ->Aranan metin 2.indiste
+
+  ```JStringManager indexof f abfdefgh```
+  > ->Aranan metin 2.indiste
 
 - **lastindexof** Metnin içindeki bir bölümün son geçtiği yerin indis olarak verilmesi.
-  - JStringManager lastindexof f abfdefgh
-  ->Aranan metin 5.indiste
+
+  ```JStringManager lastindexof f abfdefgh```
+  > ->Aranan metin 5.indiste
  
 
 ### Özel sembolleri kullanımı

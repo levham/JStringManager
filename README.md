@@ -3,8 +3,8 @@
 
  _java jdk21 gerektirir_ 
 
-[x] #### [🢆 JStringManager.exe](https://github.com/levham/JStringManager/raw/refs/heads/main/JStringManager.exe)  
-[x] #### [🢆 JStringManager-1.0.jar](https://github.com/levham/JStringManager/raw/refs/heads/main/JStringManager-1.0.jar)  
+[x] [🢆 JStringManager.exe](https://github.com/levham/JStringManager/raw/refs/heads/main/JStringManager.exe)  
+[x] [🢆 JStringManager-1.0.jar](https://github.com/levham/JStringManager/raw/refs/heads/main/JStringManager-1.0.jar)  
 
 
 

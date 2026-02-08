@@ -21,9 +21,10 @@ JStringManager.exe help
 ### Komutlar
 
 - **help , -help , h  , -h, /?** Yardım metnini görüntüler
+  ```JStringManager -help```
 
 - **lowercase, tolowercase, lower, low** Metni küçük harfe dönüştürür.
-  > JStringManager lowercase DENEME
+  ```JStringManager lowercase DENEME```
   > ->_deneme_
 
 - **uppercase, touppercase, upper, up** Metni büyük harfe dönüştürür. 

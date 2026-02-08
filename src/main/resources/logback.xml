@@ -1,0 +1,21 @@
+<configuration>
+
+    <!-- Konsola log yazan appender -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- Log formatı -->
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root logger tanımı, sadece INFO ve üstü loglar görünsün -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+    
+    <!-- DEBUG seviyesindeki logları engellemek için -->
+    <logger name="org.springframework" level="INFO"/> <!-- Örneğin Spring için -->
+    <logger name="com.yourpackage" level="INFO"/> <!-- Uygulamanızın logları için -->
+
+
+</configuration>
